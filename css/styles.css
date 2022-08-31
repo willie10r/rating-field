@@ -46,6 +46,16 @@ body {
   background-color: black;
 }
 
+.before {
+  display: block;
+  margin-top: 20%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 340px;
+  background-color: hsl(216deg, 12%, 8%);
+  border-radius: 0.75rem;
+}
+
 .after {
   display: none;
 }/*# sourceMappingURL=styles.css.map */

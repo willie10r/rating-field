@@ -8,7 +8,7 @@ body {
     background-color: black;
 }
 .before {
- @include card-layout;
+ @include var.card-layout;
 }
 .after {
     display: none;

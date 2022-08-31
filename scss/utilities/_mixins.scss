@@ -1,3 +1,4 @@
+@use './variables' as var;
 @mixin card-layout {
     display: block;
     margin-top: 20%;
