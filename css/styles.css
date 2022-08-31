@@ -5,4 +5,47 @@
 
 .attribution a {
   color: hsl(228deg, 45%, 44%);
+}
+
+body {
+  color: aliceblue;
+}
+
+ul {
+  list-style: none;
+}
+
+.sub-btn {
+  display: block;
+  justify-content: center;
+  background-color: hsl(25deg, 97%, 53%);
+  margin: 0 auto;
+  border-radius: 2rem;
+  width: 90%;
+  height: 3rem;
+}
+
+.rating {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-left: 0;
+}
+
+.rate-btn {
+  background-color: hsl(213deg, 19%, 18%);
+  display: flex;
+  justify-content: center;
+  padding-top: 0.85rem;
+  border-radius: 2rem;
+  height: 2.15rem;
+  width: 3rem;
+}
+
+body {
+  background-color: black;
+}
+
+.after {
+  display: none;
 }/*# sourceMappingURL=styles.css.map */

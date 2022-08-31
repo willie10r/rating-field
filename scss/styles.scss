@@ -1,3 +1,16 @@
 @use './base';
 @use './componets';
 @use './utilities';
+@use './utilities/' as var;
+
+
+body {
+    background-color: black;
+}
+.before {
+ @include card-layout;
+}
+.after {
+    display: none;
+
+}

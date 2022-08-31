@@ -1,0 +1,30 @@
+@use '../utilities/' as var;
+ul {
+    list-style: none;
+}
+.sub-btn {
+    display: block;
+    justify-content: center;
+    background-color:var.$prim-Orange;
+    margin: 0 auto;
+    border-radius: 2rem;
+    width: 90%;
+    height: 3rem;
+    
+}
+.rating {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 0;
+}
+.rate-btn {
+    background-color: var.$newt-Dark-Blue;
+    display: flex;
+    justify-content: center;
+    padding-top: .85rem;
+    border-radius: 2rem;
+    height: 2.15rem;
+    width: 3rem;
+
+}
