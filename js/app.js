@@ -5,13 +5,14 @@ const dispBefore = document.querySelector('.before');
 let finalMessage = document.querySelector('.selected')
 let rating = '0';
 
-
 ratingBtn.addEventListener('click', (e) => {
+    console.log(e.target.className);
+    if(e.target.className == 'rate-btn' ) {
     e.target.style.background = 'gray';
-    rating = e.target.innerHTML
+    rating = e.target.textContent
     console.log(rating);
     return rating;
-
+    }
 });
 
 submit.addEventListener('click', (e) => {
