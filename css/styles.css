@@ -20,6 +20,7 @@ body {
 .title,
 .title-after {
   color: hsl(0deg, 0%, 100%);
+  font-weight: 700;
 }
 
 .rate-btn {
@@ -81,7 +82,7 @@ body {
 
 .before {
   display: block;
-  margin-top: 20%;
+  margin-top: 40%;
   margin-left: auto;
   margin-right: auto;
   width: 340px;
@@ -103,12 +104,13 @@ body {
 }
 
 .message {
-  margin: 0 auto 1.75rem 1rem;
+  display: block;
+  margin: 0;
 }
 
 .after {
   display: block;
-  margin-top: 20%;
+  margin-top: 40%;
   margin-left: auto;
   margin-right: auto;
   width: 340px;
@@ -148,4 +150,21 @@ body {
 
 footer {
   margin-top: 6rem;
+}
+
+@media (min-width: 720px) {
+  .before {
+    margin: 8% auto 0 auto;
+  }
+  .after {
+    margin: 8% auto 0 auto;
+  }
+}
+@media (min-width: 1440px) {
+  .before {
+    margin: 10% auto 0 auto;
+  }
+  .after {
+    margin: 10% auto 0 auto;
+  }
 }/*# sourceMappingURL=styles.css.map */

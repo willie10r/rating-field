@@ -2,7 +2,7 @@
 
 @mixin card-layout {
     display: block;
-    margin-top: 20%;
+    margin-top: 40%;
     margin-left: auto;
     margin-right: auto;
     width: 340px;
@@ -15,4 +15,12 @@
 @mixin margin-lr-auto {
     margin-left: auto;
     margin-right: auto;
+}
+@mixin card-layout-md {
+
+    margin: 8% auto 0 auto;
+}
+@mixin card-layout-lg {
+
+    margin: 10% auto 0 auto;
 }

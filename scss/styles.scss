@@ -26,7 +26,8 @@ body {
 }
 
 .message {
-    margin: 0 auto 1.75rem 1rem;
+    display: block;
+    margin: 0;
 }
 
 .after {
@@ -65,4 +66,24 @@ body {
 
 footer {
     margin-top: 6rem;
+}
+@media (min-width: 720px) {
+
+    .before {
+        @include var.card-layout-md;
+    }
+    .after {
+        @include var.card-layout-md;
+    }
+
+}
+@media (min-width: 1440px) {
+
+    .before {
+        @include var.card-layout-lg;
+    }
+    .after {
+        @include var.card-layout-lg;
+    }
+
 }

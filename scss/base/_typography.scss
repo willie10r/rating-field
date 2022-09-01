@@ -7,7 +7,6 @@
     color: hsl(228, 45%, 44%);
   }
   body {
-
     font-family: 'Overpass';
   }
   .message,
@@ -18,6 +17,7 @@
   .title,
   .title-after {
     color: var.$newt-White;
+    font-weight: 700;
   }
   .rate-btn {
     color: var.$newt-Light-Grey;;
