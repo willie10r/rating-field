@@ -5,12 +5,54 @@
 
 
 body {
-    background-color: black;
+    background-color:var.$newt-Very-Dark-Blue;
+
 }
 .before {
  @include var.card-layout;
+text-align:left;
+display: none;
+}
+.svg-1 {
+    margin: 1.25rem 0 0 1.25rem;
+   background-color:lighten(var.$newt-Dark-Blue,5%);
+   border-radius: 1rem;
+}
+.title {
+    margin-left: 1rem;
+}
+.message {
+    margin: 0 auto 1.75rem 1rem;
 }
 .after {
-    display: none;
+    @include var.card-layout;
+    display: block;
 
+}
+.svg-2 {
+    display: block;
+    margin: 0rem auto 2rem auto;
+    padding-top: 20px;
+}
+.selected {
+    display: block;
+    @include var.margin-lr-auto;
+    background-color: lighten(var.$newt-Dark-Blue,5%);
+    border-radius: 1rem;
+    width: 12rem;
+    height: 1.5rem;
+    padding-top: .45rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+  
+}
+.title-after,
+.message-after {
+  text-align: center;
+}
+.message-after {
+    margin: 1rem 2rem;
+   }
+footer {
+    margin-top: 6rem;
 }

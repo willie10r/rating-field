@@ -6,9 +6,9 @@ ul {
     display: block;
     justify-content: center;
     background-color:var.$prim-Orange;
-    margin: 0 auto;
+    margin: 2rem auto;
     border-radius: 2rem;
-    width: 90%;
+    width: 85%;
     height: 3rem;
     
 }
@@ -17,14 +17,14 @@ ul {
     flex-direction: row;
     justify-content: space-around;
     padding-left: 0;
+    margin: .5rem .5rem;
 }
 .rate-btn {
-    background-color: var.$newt-Dark-Blue;
-    display: flex;
-    justify-content: center;
-    padding-top: .85rem;
+    background-color: lighten(var.$newt-Dark-Blue,5%);
+    border: none;
     border-radius: 2rem;
-    height: 2.15rem;
-    width: 3rem;
+    height: 2.5rem;
+    width: 2.5rem;
+
 
 }

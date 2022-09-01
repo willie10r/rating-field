@@ -5,7 +5,12 @@
     margin-left: auto;
     margin-right: auto;
     width: 340px;
-    background-color: var.$newt-Very-Dark-Blue;
+    height: 350px;
+    background-color: var.$newt-Dark-Blue;
     border-radius: .75rem;
     
+}
+@mixin margin-lr-auto {
+    margin-left: auto;
+    margin-right: auto;
 }

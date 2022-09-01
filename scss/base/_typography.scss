@@ -1,3 +1,4 @@
+@use '../utilities' as var;
 .attribution {
     font-size: 11px;
     text-align: center;
@@ -6,7 +7,25 @@
     color: hsl(228, 45%, 44%);
   }
   body {
-    color: aliceblue
-    ;
+
+    font-family: 'Overpass';
   }
-  
+  .message,
+  .message-after {
+    color: var.$newt-Light-Grey;
+    font-size: 15px;
+  }
+  .title,
+  .title-after {
+    color: var.$newt-White;
+  }
+  .rate-btn {
+    color: var.$newt-Light-Grey;;
+  }
+  .sub-btn {
+    color: var.$newt-White;
+  }
+  .selected {
+    color: var.$prim-Orange;
+    font-size: 15px;
+  }

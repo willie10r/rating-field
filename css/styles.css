@@ -8,7 +8,31 @@
 }
 
 body {
-  color: aliceblue;
+  font-family: "Overpass";
+}
+
+.message,
+.message-after {
+  color: hsl(217deg, 12%, 63%);
+  font-size: 15px;
+}
+
+.title,
+.title-after {
+  color: hsl(0deg, 0%, 100%);
+}
+
+.rate-btn {
+  color: hsl(217deg, 12%, 63%);
+}
+
+.sub-btn {
+  color: hsl(0deg, 0%, 100%);
+}
+
+.selected {
+  color: hsl(25deg, 97%, 53%);
+  font-size: 15px;
 }
 
 ul {
@@ -19,9 +43,9 @@ ul {
   display: block;
   justify-content: center;
   background-color: hsl(25deg, 97%, 53%);
-  margin: 0 auto;
+  margin: 2rem auto;
   border-radius: 2rem;
-  width: 90%;
+  width: 85%;
   height: 3rem;
 }
 
@@ -30,20 +54,19 @@ ul {
   flex-direction: row;
   justify-content: space-around;
   padding-left: 0;
+  margin: 0.5rem 0.5rem;
 }
 
 .rate-btn {
-  background-color: hsl(213deg, 19%, 18%);
-  display: flex;
-  justify-content: center;
-  padding-top: 0.85rem;
+  background-color: #303a46;
+  border: none;
   border-radius: 2rem;
-  height: 2.15rem;
-  width: 3rem;
+  height: 2.5rem;
+  width: 2.5rem;
 }
 
 body {
-  background-color: black;
+  background-color: hsl(216deg, 12%, 8%);
 }
 
 .before {
@@ -52,10 +75,67 @@ body {
   margin-left: auto;
   margin-right: auto;
   width: 340px;
-  background-color: hsl(216deg, 12%, 8%);
+  height: 350px;
+  background-color: hsl(213deg, 19%, 18%);
   border-radius: 0.75rem;
+  text-align: left;
+  display: none;
+}
+
+.svg-1 {
+  margin: 1.25rem 0 0 1.25rem;
+  background-color: #303a46;
+  border-radius: 1rem;
+}
+
+.title {
+  margin-left: 1rem;
+}
+
+.message {
+  margin: 0 auto 1.75rem 1rem;
 }
 
 .after {
-  display: none;
+  display: block;
+  margin-top: 20%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 340px;
+  height: 350px;
+  background-color: hsl(213deg, 19%, 18%);
+  border-radius: 0.75rem;
+  display: block;
+}
+
+.svg-2 {
+  display: block;
+  margin: 0rem auto 2rem auto;
+  padding-top: 20px;
+}
+
+.selected {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #303a46;
+  border-radius: 1rem;
+  width: 12rem;
+  height: 1.5rem;
+  padding-top: 0.45rem;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.title-after,
+.message-after {
+  text-align: center;
+}
+
+.message-after {
+  margin: 1rem 2rem;
+}
+
+footer {
+  margin-top: 6rem;
 }/*# sourceMappingURL=styles.css.map */
