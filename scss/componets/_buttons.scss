@@ -1,17 +1,25 @@
 @use '../utilities/' as var;
+
 ul {
     list-style: none;
 }
+
 .sub-btn {
     display: block;
     justify-content: center;
-    background-color:var.$prim-Orange;
+    background-color: var.$prim-Orange;
     margin: 2rem auto;
     border-radius: 2rem;
     width: 85%;
     height: 3rem;
-    
+
 }
+
+.sub-btn:hover {
+    background-color: var.$newt-White;
+    color: var.$prim-Orange;
+}
+
 .rating {
     display: flex;
     flex-direction: row;
@@ -19,12 +27,18 @@ ul {
     padding-left: 0;
     margin: .5rem .5rem;
 }
+
 .rate-btn {
-    background-color: lighten(var.$newt-Dark-Blue,5%);
+    background-color: lighten(var.$newt-Dark-Blue, 5%);
     border: none;
     border-radius: 2rem;
     height: 2.5rem;
     width: 2.5rem;
 
 
+}
+
+.rate-btn:hover {
+    background-color: var.$prim-Orange;
+    color: var.$newt-White;
 }

@@ -49,6 +49,11 @@ ul {
   height: 3rem;
 }
 
+.sub-btn:hover {
+  background-color: hsl(0deg, 0%, 100%);
+  color: hsl(25deg, 97%, 53%);
+}
+
 .rating {
   display: flex;
   flex-direction: row;
@@ -65,6 +70,11 @@ ul {
   width: 2.5rem;
 }
 
+.rate-btn:hover {
+  background-color: hsl(25deg, 97%, 53%);
+  color: hsl(0deg, 0%, 100%);
+}
+
 body {
   background-color: hsl(216deg, 12%, 8%);
 }
@@ -79,7 +89,7 @@ body {
   background-color: hsl(213deg, 19%, 18%);
   border-radius: 0.75rem;
   text-align: left;
-  display: none;
+  display: block;
 }
 
 .svg-1 {
@@ -105,7 +115,7 @@ body {
   height: 350px;
   background-color: hsl(213deg, 19%, 18%);
   border-radius: 0.75rem;
-  display: block;
+  display: none;
 }
 
 .svg-2 {
