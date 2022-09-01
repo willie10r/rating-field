@@ -7,6 +7,7 @@ let rating = '0';
 
 
 ratingBtn.addEventListener('click', (e) => {
+    e.target.style.background = 'gray';
     rating = e.target.innerHTML
     console.log(rating);
     return rating;
