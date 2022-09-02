@@ -7,11 +7,11 @@ let rating = '0';
 
 ratingBtn.addEventListener('click', (e) => {
     console.log(e.target.className);
-    if(e.target.className == 'rate-btn' ) {
-    e.target.style.background = 'gray';
-    rating = e.target.textContent
-    console.log(rating);
-    return rating;
+    if (e.target.className == 'rate-btn') {
+        e.target.style.background = ' hsl(216, 12%, 54%)';
+        rating = e.target.textContent
+        console.log(rating);
+        return rating;
     }
 });
 
